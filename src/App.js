@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import TodoList from './components/TodoList';
@@ -13,7 +14,7 @@ function App() {
 					<hr className='mt-4' />
 					<TodoList />
 					<hr className='mt-4' />
-
+          <Footer />
 					
 				</div>
   </div>
